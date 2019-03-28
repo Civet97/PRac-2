@@ -1,0 +1,91 @@
+body{
+  margin:90px;
+  background: url(../images/8.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: Times new roman;
+  margin-top:0;
+}
+
+.form1{
+  text-align: center;
+  margin:50px 400px;
+}
+
+@media screen and (max-width:640px) {
+  .leftSideBar, .rightSideBar {display:none}
+}
+
+form{
+  width:100%;
+  background-color: grey;
+  box-shadow: 10px 10px 10px 10px black;
+  background: rgba(0, 0, 0, 0.6);
+  opacity:1.0;
+  padding:50px 0px;
+  margin-top: 10px;
+  margin: 1px;
+}
+
+h2{
+  text-align: center;
+  background-color:#1b0d44;
+  color:white;
+  padding:10px;
+  border-radius: 10px;
+  font-family: Times new roman;
+  margin:20px;
+  border:10px;
+}
+
+input[type=text]{
+  padding:10px;
+  margin:10px;
+  border-radius: 5px;
+  border:none;
+  display: inline;
+  width:60%;
+
+}
+
+select{
+  padding:10px;
+  margin:5px;
+  border-radius: 5px;
+  border:none;
+
+}
+input[type=date]{
+  padding:10px;
+  margin:10px;
+  border-radius: 5px;
+  border:none;
+  display: inline;
+  width:60%;
+
+}
+
+
+input[type=submit]{
+  width:80%;
+  background:#1b0d44;
+  cursor:pointer;
+  font-size:20px;
+  font-weight: bold;
+  color:white;
+  font-family: Times new roman;
+  border-color: #1b0d44;
+}
+input[type=submit]:hover{
+  background:grey;
+  border-color: grey;
+
+
+}
+label{
+  color:white;
+  font-family: Times new roman;
+  padding:5px;
+  width:240px;
+  display: inline-block;
+}
